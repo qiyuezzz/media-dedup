@@ -32,3 +32,17 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Kotlin compiler / daemon cache
+.kotlin/
+
+# Agent / tooling workspace files (local-only)
+.agent/
+.zcode/
+input_images/

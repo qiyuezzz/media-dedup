@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Back Frame (Photo) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M30,26h40c2.2,0,4,1.8,4,4v40c0,2.2-1.8,4-4,4h-40c-2.2,0-4-1.8-4-4v-40C26,27.8,27.8,26,30,26z M33,65l10,-10l6,6l8,-8l14,14v3h-38z" />
+
+    <!-- Mask for Front Frame -->
+    <path
+        android:fillColor="#1A73E8"
+        android:pathData="M38,32h40c3.3,0,6,2.7,6,6v40c0,3.3-2.7,6-6,6h-40c-3.3,0-6-2.7-6-6v-40C32,34.7,34.7,32,38,32z" />
+
+    <!-- Front Frame (Video) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M38,34h40c2.2,0,4,1.8,4,4v40c0,2.2-1.8,4-4,4h-40c-2.2,0-4-1.8-4-4v-40C34,35.8,35.8,34,38,34z M50,44l16,10l-16,10z" />
+
+    <!-- Sparkle for Cleanliness -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,22l2,6l6,2l-6,2l-2,6l-2-6l-6-2l6-2z" />
+</vector>

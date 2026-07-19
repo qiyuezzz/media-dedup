@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">MediaDedup</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Storage Impact</string>
+    <string name="refresh">Refresh</string>
+    <string name="find_duplicates">Find Duplicates</string>
+    <string name="global_scan">Global Scan</string>
+    <string name="select_albums">Select Albums</string>
+    <string name="scan_selected">Scan Selected (%d)</string>
+    <string name="total_media_usage">Total Media Usage</string>
+    <string name="potential_savings">Potential savings: %s</string>
+    <string name="media_categories">Media Categories</string>
+    <string name="category_images">Images</string>
+    <string name="category_videos">Videos</string>
+    <string name="category_audio">Audio</string>
+    <string name="file_count_format">%d files</string>
+
+    <!-- Scanning -->
+    <string name="scanning_media">Scanning Media</string>
+    <string name="scanning_querying">Querying MediaStore...</string>
+    <string name="analyzing_content">Analyzing Content</string>
+    <string name="hashing_description">Calculating file hashes to find duplicates...</string>
+    <string name="total_files_discovered">Total files discovered: %d</string>
+    <string name="potential_duplicates_found">Potential duplicates (same size): %d</string>
+    <string name="ready_to_scan">Ready to scan</string>
+
+    <!-- Results -->
+    <string name="results_title">Duplicates Found</string>
+    <string name="back">Back</string>
+    <string name="select_all">Select All</string>
+    <string name="clean_all">Clean All</string>
+    <string name="delete_selected">Delete Selected (%d)</string>
+    <string name="no_duplicates">No duplicates found!</string>
+    <string name="optimization_summary">Optimization Summary</string>
+    <string name="results_summary_format">You can safely remove %1$d redundant files and reclaim %2$s of space.</string>
+    <string name="duplicate_set">Matching Set (%s)</string>
+    <string name="empty_files">Empty Files (Size 0)</string>
+    <string name="empty_files_description">These files occupy no space but may be corrupted or placeholders.</string>
+
+    <!-- Near Duplicate (pHash) -->
+    <string name="perceptual_hashing_title">Identifying Similar Content</string>
+    <string name="perceptual_hashing_description">Identifying media with the same content but different resolution or compression…</string>
+    <string name="perceptual_hashing_video_hint">Extracting video representative frames; this may take a moment.</string>
+    <string name="scan_failed">Scan failed</string>
+    <string name="similar_images_section">Similar Images</string>
+    <string name="similar_videos_section">Similar Videos (Experimental)</string>
+    <string name="similar_video_experimental">Single-frame matching; review carefully before removing.</string>
+    <string name="similar_group_title">Similar Group · %d items</string>
+    <string name="similar_max_distance">Max distance %d</string>
+    <string name="similarity_high">Highly similar</string>
+    <string name="similarity_medium">Similar</string>
+    <string name="similarity_possible">Possibly similar</string>
+    <string name="distance_to_representative">Distance to keep: %d</string>
+    <string name="select_recommended_items">Recommend Delete</string>
+    <string name="estimated_reclaimable_space">Estimated reclaimable: %s</string>
+    <string name="deselect_all">Deselect All</string>
+
+    <!-- Permissions -->
+    <string name="storage_access_needed">Storage Access Needed</string>
+    <string name="permission_description">MediaDedup needs permission to scan your device for duplicate media files and reclaim storage space.</string>
+    <string name="grant_permissions">Grant Permissions</string>
+
+    <!-- Adaptive/Detail Pane -->
+    <string name="select_category_prompt">Select a category to see more details</string>
+    <string name="dashboard_overview">Dashboard Overview</string>
+    <string name="category_breakdown_format">%s Breakdown</string>
+    <string name="file_count">File Count</string>
+    <string name="storage_used">Storage Used</string>
+    <string name="category_detail_info">Scanning will identify duplicate files within this category to help reclaim space.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="language">Language</string>
+    <string name="system_default">System Default</string>
+    <string name="english">English</string>
+    <string name="chinese_simplified">Chinese (Simplified)</string>
+    <string name="near_duplicate_setting_title">Near-duplicate detection</string>
+    <string name="near_duplicate_setting_desc">Identify images and videos with the same content but different resolution, compression, or encoding. The first scan may be slower and results need manual confirmation.</string>
+    <string name="near_duplicate_setting_warning">Near-duplicate detection may flag burst photos or visually similar content as candidates. The app will never auto-delete these.</string>
+
+    <!-- Video preview -->
+    <string name="preview_video">Preview video</string>
+    <string name="close_preview">Close</string>
+</resources>

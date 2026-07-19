@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">MediaDedup</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">存储统计</string>
+    <string name="refresh">刷新</string>
+    <string name="find_duplicates">查找重复文件</string>
+    <string name="global_scan">全局扫描</string>
+    <string name="select_albums">选择相册/文件夹</string>
+    <string name="scan_selected">扫描已选 (%d)</string>
+    <string name="total_media_usage">媒体文件占用总空间</string>
+    <string name="potential_savings">预计可节省空间: %s</string>
+    <string name="media_categories">媒体类别</string>
+    <string name="category_images">图片</string>
+    <string name="category_videos">视频</string>
+    <string name="category_audio">音频</string>
+    <string name="file_count_format">%d 个文件</string>
+
+    <!-- Scanning -->
+    <string name="scanning_media">正在扫描媒体文件</string>
+    <string name="scanning_querying">正在查询媒体库…</string>
+    <string name="analyzing_content">正在分析内容</string>
+    <string name="hashing_description">正在计算文件哈希值以识别重复内容…</string>
+    <string name="total_files_discovered">已发现文件总数：%d</string>
+    <string name="potential_duplicates_found">潜在重复文件（大小相同）：%d</string>
+    <string name="ready_to_scan">准备就绪</string>
+
+    <!-- Results -->
+    <string name="results_title">发现重复文件</string>
+    <string name="back">返回</string>
+    <string name="select_all">全选</string>
+    <string name="clean_all">立即清理</string>
+    <string name="delete_selected">删除已选 (%d)</string>
+    <string name="no_duplicates">未发现重复文件！</string>
+    <string name="optimization_summary">优化摘要</string>
+    <string name="results_summary_format">您可以安全地删除 %1$d 个冗余文件，释放 %2$s 空间。</string>
+    <string name="duplicate_set">重复组 (%s)</string>
+    <string name="empty_files">空文件 (大小为0)</string>
+    <string name="empty_files_description">这些文件不占用空间，但可能是损坏的文件或占位符。</string>
+
+    <!-- Near Duplicate (pHash) -->
+    <string name="perceptual_hashing_title">正在识别相似内容</string>
+    <string name="perceptual_hashing_description">正在识别内容相同但分辨率或压缩质量不同的媒体…</string>
+    <string name="perceptual_hashing_video_hint">正在提取视频代表帧，可能需要一些时间。</string>
+    <string name="scan_failed">扫描失败</string>
+    <string name="similar_images_section">相似图片</string>
+    <string name="similar_videos_section">相似视频（实验性）</string>
+    <string name="similar_video_experimental">基于单帧匹配，删除前请仔细核对。</string>
+    <string name="similar_group_title">相似组 · %d 项</string>
+    <string name="similar_max_distance">最大距离 %d</string>
+    <string name="similarity_high">高度相似</string>
+    <string name="similarity_medium">相似</string>
+    <string name="similarity_possible">可能相似</string>
+    <string name="distance_to_representative">与保留项距离：%d</string>
+    <string name="select_recommended_items">推荐删除</string>
+    <string name="estimated_reclaimable_space">预计可释放：%s</string>
+    <string name="deselect_all">全部取消选择</string>
+
+    <!-- Permissions -->
+    <string name="storage_access_needed">需要存储访问权限</string>
+    <string name="permission_description">MediaDedup 需要权限来扫描您设备中的重复媒体文件并回收存储空间。</string>
+    <string name="grant_permissions">授权访问</string>
+
+    <!-- Adaptive/Detail Pane -->
+    <string name="select_category_prompt">选择一个类别以查看详细信息</string>
+    <string name="dashboard_overview">控制台概览</string>
+    <string name="category_breakdown_format">%s 详情</string>
+    <string name="file_count">文件数量</string>
+    <string name="storage_used">已占用空间</string>
+    <string name="category_detail_info">扫描将识别此类别下的重复文件，帮助您回收空间。</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="language">语言</string>
+    <string name="system_default">系统默认</string>
+    <string name="english">英语</string>
+    <string name="chinese_simplified">中文 (简体)</string>
+    <string name="near_duplicate_setting_title">近似查重</string>
+    <string name="near_duplicate_setting_desc">识别内容相同但分辨率、压缩质量或编码不同的图片和视频。首次扫描可能较慢，结果需要人工确认。</string>
+    <string name="near_duplicate_setting_warning">近似查重可能将连拍照片或视觉相似内容识别为候选项，应用不会自动删除这些媒体。</string>
+
+    <!-- Video preview -->
+    <string name="preview_video">预览视频</string>
+    <string name="close_preview">关闭</string>
+</resources>
